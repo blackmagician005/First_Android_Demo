@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.jay.uiwidgettest">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".UI_Main"
+            android:label="First Android Demo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Linear_Layout"
+            android:label="Linear Layout">
+        </activity>
+        <activity
+            android:name=".Linear_Layout_Horizontal"
+            android:label="Linear Layout Horizontal">
+        </activity>
+        <activity
+            android:name=".Linear_Layout_Vertical"
+            android:label="Linear Layout Vertical">
+        </activity>
+        <activity
+            android:name=".Linear_Layout_Gravity"
+            android:label="Linear Layout Gravity">
+        </activity>
+        <activity
+            android:name=".Linear_Layout_Horizontal"
+            android:label="Linear Layout Horizontal">
+        </activity>
+        <activity
+            android:name=".Linear_Layout_Vertical"
+            android:label="Linear Layout Vertical">
+        </activity>
+        <activity
+            android:name=".Linear_Layout_Gravity"
+            android:label="Linear Layout Gravity">
+        </activity>
+        <activity
+            android:name=".Linear_Layout_Weight"
+            android:label="Linear Layout Weight">
+        </activity>
+        <activity
+            android:name=".Relative_Layout"
+            android:label="Relative Layout">
+        </activity>
+        <activity
+            android:name=".Relative_Layout_1"
+            android:label="Relative Layout 1">
+        </activity>
+        <activity
+            android:name=".Relative_Layout_2"
+            android:label="Relative Layout 2">
+        </activity>
+        <activity
+            android:name=".Frame_Layout"
+            android:label="Frame Layout">
+        </activity>
+        <activity
+            android:name=".Percent_Layout"
+            android:label="Percent Layout">
+        </activity>
+        <activity
+            android:name=".Progress_Bar"
+            android:label="Progress Bar">
+        </activity>
+    </application>
+
+</manifest>
